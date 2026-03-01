@@ -3,7 +3,7 @@
     "name":"qFdgg",
     "points":76,
     "modes":["Schwert","Axe","Crystal","NethOP"],
-    "tiers":{"Schwert":"HT2","Axe":"LT3","Crystal":"LT2","NethOP":"LT2"}
+    "tiers":{"Schwert":"HT2","Axe":"LT3","Crystal":"RLT2","NethOP":"LT2"}
   },
   {
     "name":"D4vi_YT",
@@ -11,5 +11,6 @@
     "modes":["Helden Kit","Schwert","Axe","Pot","SMP"],
     "tiers":{"Schwert":"LT4","Helden Kit":"HT3","Axe":"HT4","Pot":"LT3","SMP":"HT5"}
   }
+
 
 ]
