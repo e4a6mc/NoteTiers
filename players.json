@@ -1,7 +1,7 @@
 [
   {
     "name":"qFdgg",
-    "points":56,
+    "points":76,
     "modes":["Schwert","Axe","Crystal","NethOP"],
     "tiers":{"Schwert":"HT2","Axe":"LT3","Crystal":"RLT2","NethOP":"LT2"}
   },
@@ -14,5 +14,6 @@
 
 
 ]
+
 
 
