@@ -1,0 +1,152 @@
+body{
+  margin:0;
+  background:#0b1220;
+  color:white;
+  font-family:system-ui,Arial;
+}
+
+.title{
+  text-align:center;
+  padding:25px 10px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:10px;
+  transition:opacity .25s;
+}
+
+.player{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#121a2b;
+  margin:12px 0;
+  padding:16px;
+  border-radius:14px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.3);
+  transition:.2s;
+  opacity:0;
+  transform:translateY(10px);
+  animation:fadeIn .5s ease forwards;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+.player:hover{
+  transform:translateY(-3px);
+}
+
+.player:first-child{
+  border:1px solid gold;
+  box-shadow:0 0 20px rgba(255,215,0,0.4);
+}
+
+.left{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.rank{
+  font-weight:bold;
+  font-size:18px;
+  width:40px;
+  height:40px;
+  border-radius:10px;
+  background:#0b1220;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+}
+
+.avatar{
+  width:44px;
+  height:44px;
+  border-radius:8px;
+  transition:transform .2s;
+}
+
+.avatar:hover{
+  transform:scale(1.08);
+}
+
+.name{
+  font-size:17px;
+}
+
+.right{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.points{
+  color:#ffd700;
+  font-weight:bold;
+}
+
+/* иконки горизонтально */
+.modes{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.iconBox{
+  position:relative;
+  display:inline-block;
+}
+
+.iconBox img{
+  width:28px;
+  height:28px;
+  object-fit:contain;
+  display:block;
+  transition:transform .15s, filter .2s;
+  filter:drop-shadow(0 0 2px rgba(0,0,0,0.6));
+}
+
+.iconBox img:hover{
+  transform:scale(1.25);
+  filter:brightness(1.2);
+}
+
+/* тултип тира */
+.tooltip{
+  position:absolute;
+  bottom:130%;
+  left:50%;
+  transform:translateX(-50%);
+  background:#0b1220;
+  padding:4px 8px;
+  border-radius:6px;
+  font-size:12px;
+  white-space:nowrap;
+  opacity:0;
+  pointer-events:none;
+  transition:.15s;
+  box-shadow:0 4px 12px rgba(0,0,0,0.4);
+}
+
+.tooltip::after{
+  content:"";
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform:translateX(-50%);
+  border:6px solid transparent;
+  border-top-color:#0b1220;
+}
+
+.iconBox:hover .tooltip{
+  opacity:1;
+  bottom:150%;
+}
