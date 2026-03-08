@@ -58,4 +58,5 @@ async function loadPlayers(){
 }
 
 loadPlayers();              // первый запуск
-setInterval(loadPlayers,60000); // обновление раз в минуту
+
+setInterval(loadPlayers,30000); // обновление раз в минуту
