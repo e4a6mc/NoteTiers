@@ -1,22 +1,16 @@
 [
   {
-    "name":"e4a6",
-    "points":10,
-    "modes":["Schwert"],
-    "tiers":{"Schwert"}
+    "name": "e4a6",
+    "points": 10,
+    "modes": ["Schwert"],
+    "tiers": {
+      "Schwert": "S"
+    }
   },
   {
-    "name":"Evoxxxx",
-    "points":0,
-    "modes":[],
-    "tiers":{}
+    "name": "Evoxxxx",
+    "points": 0,
+    "modes": [],
+    "tiers": {}
   }
-
-
 ]
-
-
-
-
-
-
