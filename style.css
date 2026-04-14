@@ -150,3 +150,9 @@ body{
   opacity:1;
   bottom:150%;
 }
+
+.logo{
+  width:220px;
+  max-width:90%;
+  opacity:.95;
+}
