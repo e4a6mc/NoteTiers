@@ -1,25 +1,27 @@
 [
   {
     "name": "e4a6",
-    "points": 10,
-    "modes": ["Schwert", "Crystal", "Pot", "NethOP", "Axe"],
+    "points": 38,
+    "modes": ["Schwert", "Crystal", "Pot", "NethOP", "Axe","UHC"],
     "tiers": {
       "Schwert": "HT3",
       "Crystal": "HT3",
       "Pot": "LT3",
       "NethOP": "HT5",
-      "Axe": "LT3"
+      "Axe": "LT3",
+      "UHC": "LT4"
     }
   },
   {
     "name": "Evoxxxx",
-    "points": 0,
-    "modes": ["Schwert", "Crystal", "Axe", "Pot"],
+    "points": 20,
+    "modes": ["Schwert", "Crystal", "Axe", "Pot","UHC"],
     "tiers": {
       "Schwert": "LT4",
       "Crystal": "LT3",
       "Axe": "LT4",
-      "Pot": "LT4"
+      "Pot": "LT4",
+      "UHC": "HT5"
     }
   }
 ]
