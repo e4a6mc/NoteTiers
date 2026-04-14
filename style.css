@@ -3,6 +3,16 @@ body{
   background:#0b1220;
   color:white;
   font-family:system-ui,Arial;
+  animation:pageFade .5s ease;
+}
+
+@keyframes pageFade{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
 }
 
 .title{
