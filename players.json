@@ -2,8 +2,8 @@
   {
     "name":"e4a6",
     "points":6,
-    "modes":["Schwert"],
-    "tiers":{"Schwert":"LT3"}
+    "modes":[],
+    "tiers":{}
   },
   {
     "name":"Evoxxxx",
