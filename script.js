@@ -1,7 +1,6 @@
 async function loadPlayers(){
 
-  const url="players.json?v="+Date.now(); // локально
-  // когда зальёшь на GitHub Pages, поменяешь на RAW ссылку
+  const url="players.json?v="+Date.now();
 
   const r=await fetch(url);
   const players=await r.json();
@@ -12,6 +11,8 @@ async function loadPlayers(){
   let html="";
 
   players.forEach((p,i)=>{
+
+    const delay=i*80;
 
     const skin=`https://mc-heads.net/avatar/${p.name}`;
 
@@ -34,7 +35,7 @@ async function loadPlayers(){
     else medal=`🏅 ${i+1}`;
 
     html+=`
-      <div class="player">
+      <div class="player" style="animation-delay:${delay}ms">
         <div class="left">
           <div class="rank">${medal}</div>
           <img class="avatar" src="${skin}">
@@ -57,6 +58,6 @@ async function loadPlayers(){
   },200);
 }
 
-loadPlayers();              // первый запуск
+loadPlayers();
 
-setInterval(loadPlayers,30000); // обновление раз в минуту
+setInterval(loadPlayers,30000);
