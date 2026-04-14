@@ -1,15 +1,15 @@
 [
   {
-    "name":"qFdgg",
-    "points":80,
-    "modes":["Helden Kit","Schwert","Axe","Crystal","NethOP"],
-    "tiers":{"Helden Kit":"LT4","Schwert":"HT2","Axe":"LT3","Crystal":"RLT2","NethOP":"LT2"}
+    "name":"e4a6",
+    "points":6,
+    "modes":["Schwert"],
+    "tiers":{"Schwert":"LT3"}
   },
   {
-    "name":"D4vi_YT",
-    "points":24,
-    "modes":["Helden Kit","Schwert","Axe","Pot","SMP"],
-    "tiers":{"Schwert":"LT4","Helden Kit":"HT3","Axe":"HT4","Pot":"LT3","SMP":"HT5"}
+    "name":"Evoxxxx",
+    "points":0,
+    "modes":[],
+    "tiers":{}
   }
 
 
